@@ -35,9 +35,6 @@ flags_c = [
     '-include', KERNEL_PATH + 'include/linux/kconfig.h',  # IMPORTANT
 ]
 
-print(flags_c)
-
-
 def DirectoryOfThisScript():
     return os.path.dirname(os.path.abspath(__file__))
 
