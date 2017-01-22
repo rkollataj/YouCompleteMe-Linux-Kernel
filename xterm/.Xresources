@@ -1,0 +1,13 @@
+XTerm*reverseVideo: on
+XTerm*faceName: Monospace Regular
+xterm*faceSize: 12
+xterm*termName: xterm-256color
+XTerm*locale: true
+XTerm*metaSendsEscape: true
+XTerm*eightBitInput: false
+Xterm*saveLines: 1048576
+XTerm*selectToClipboard: true
+
+XTerm*VT100.Translations:       #override\n\
+ Ctrl <KeyPress> V: insert-selection(CLIPBOARD)\n\
+
