@@ -90,3 +90,5 @@ export EDITOR='vim'
 
 # disable ctrl+s hanging
 stty -ixon
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
